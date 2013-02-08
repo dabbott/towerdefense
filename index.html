@@ -1,0 +1,115 @@
+<html>
+<head>
+</head>
+<body style="background-color: black;" oncontextmenu="return false;">
+    <!--div class="test" style="text-align: center; color: white;"></div-->
+    <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/ui.css" />
+    <script src="scripts/lib/modernizr-2.0.6.js"></script>
+    <script src="scripts/main.js"></script>
+    
+    <div id="status">
+        
+        <div id="message">
+            <div id="welcome">WebGL Tower Defense</div>
+			<div class="note">A little experiment with <a href="https://github.com/mrdoob/three.js/">three.js</a>. To make it more fun (and to stress your GPU), you can build towers even when you have no money.</div>
+			<div class="note">This game is not balanced. Simply enjoy the flashy explosions. And the unnecessarily large files.</div>
+			<div class="note">You're listening to the Halo Theme from the Halo 2 Soundtrack. (I did not create this epic song; please notify me if you need it removed.)</div>
+			<div class="note">Send comments and complaints to <i>devin@devinabbott.com</i></div>
+			<div id="text">Loading files...</div>
+        </div>
+    </div>
+    
+    <div id="how">
+        <div class="heading">How to Play</div>
+        <br>
+        <div class="heading">To build a tower</div>
+        <div>Click the tower icon at the bottom of the screen. Then click the square you want to build on.</div>
+        <br>
+        <div class="heading">To upgrade / sell a tower</div>
+        <div>Click the square of a tower. Then choose up to upgrade or down to sell. Right click or click 'x' to cancel.</div>
+    </div>
+    
+    <div id="keys">
+        <div id="keys-left">
+            <div>Pause</div>
+            <div>Hide this box</div>
+			<br>
+            <div class="heading">Sound</div>
+            <div>Pause music</div>
+            <div>Mute fx</div>
+            <br>
+            <div class="heading">Game Speed</div>
+            <div>Normal speed</div>
+            <div># times speed</div>
+            <br>
+            <div class="heading">Camera</div>
+            <div>Zoom in</div>
+            <div>Zoom out</div>
+            <div>Move left</div>
+            <div>Move right</div>
+            <div>Move up</div>
+            <div>Move down</div>
+            <div>Reset camera</div>
+        </div>
+        <div id="keys-right">
+            <div>p</div>
+            <div>h</div>
+            <br>
+            <br>
+			<div>t</div>
+            <div>m</div>
+            <br>
+            <br>
+            <div>1</div>
+            <div>2 - 9</div>
+            <br>
+            <br>
+            <div>i</div>
+            <div>o</div>
+            <div>arrow left</div>
+            <div>arrow right</div>
+            <div>arrow up</div>
+            <div>arrow down</div>
+            <div>r</div>
+        </div>
+    </div>
+    
+    <div id="control-wrapper">
+        <div id="inner-wrapper">
+            <div id="info">
+                <div id="info-left">
+                    <div>Level</div>
+                    <div>Enemies</div>
+                    <div>Lives</div>
+                    <div>Money</div>
+                </div>
+                <div id="info-right">
+                    <div id="level">1</div>
+                    <div id="enemies">5</div>
+                    <div id="lives">100</div>
+                    <div id="money">30</div>
+                </div>
+            </div>
+            <div id="controls">
+                <div class="button" id="gattling">
+                    <a class="gattling"></a>
+                </div>
+                <div class="button" id="missile">
+                    <a class="missile"></a>
+                </div>
+                <div class="button" id="laser">
+                    <a class="laser"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="dialog">
+        <div class="button-small" id="upgrade"></div>
+        <div class="button-small" id="sell"></div>
+        <div id="cancel"></div>
+    </div>
+    
+</body>
+</html>

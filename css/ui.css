@@ -1,0 +1,317 @@
+#info
+{
+	/*position: absolute;*/
+	padding: 10px 9px 9px 9px;
+	margin-right: 10px;
+	
+	width: 120px;
+	/*height: 65px;*/
+	color: black;
+	background: black;
+	opacity: 0.9;
+	border: 1px green solid;
+	
+	/*top: 20px;*/
+	/*right: 20px;*/
+	float:left;
+}
+
+#info-left
+{
+	
+	float: left;
+	color: green;
+	
+}
+
+#info-right
+{
+	
+	text-align: right;
+	/*margin-left: 40px;*/
+	float: right;
+	color: green;
+	
+}
+
+#how
+{
+	position: absolute;
+	padding: 10px;
+	
+	width: 156px;
+	/*height: 65px;*/
+	background: black;
+	opacity: 0.9;
+	border: 1px green solid;
+	color: green;	
+	
+	top: 20px;
+	left: 20px;
+}
+
+#keys
+{
+	position: absolute;
+	padding: 10px;
+	
+	width: 156px;
+	/*height: 65px;*/
+	background: black;
+	opacity: 0.9;
+	border: 1px green solid;
+	
+	top: 20px;
+	right: 20px;
+}
+
+.heading
+{
+	color: #37b542;
+}
+
+#keys-left
+{
+	
+	float: left;
+	color: green;
+	
+}
+
+#keys-right
+{
+	
+	text-align: right;
+	/*margin-left: 40px;*/
+	float: right;
+	color: green;
+	
+}
+
+#control-wrapper
+{
+	
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+	
+}
+
+#inner-wrapper
+{
+	width: 390px;
+	margin: 0px auto;
+}
+
+#controls
+{
+	float:left;
+	opacity: 0.9;
+	
+	/*bottom: 20px;*/
+	border: 1px green solid;
+	width: 226px;
+	
+	
+	padding-top: 10px;
+	padding-bottom: 12px;
+	padding-left: 5px;
+	/*padding-right: 12px;*/
+	
+	/*padding: 10px 8px 1*/
+	
+	/*position: absolute;*/
+	height: 60px;
+	
+	background: black;
+	
+}
+
+.button
+{
+	
+	/*display: inline-block;*/
+	float: left;
+	
+	width: 60px;
+	height: 60px;
+	margin: 0px 6px ;
+	
+	border: 1px green solid;
+	
+}
+
+.button-small
+{
+	
+	float: left;
+	/*display: inline-block;*/
+	
+	width: 40px;
+	height: 40px;
+	margin-right:  6px;
+	margin-top: 2px;
+	margin-bottom: 4px;
+	
+	border: 1px green solid;
+	
+}
+
+#dialog
+{
+	
+	opacity: 0.9;
+	background: black;
+	border: 1px green solid;
+	width: 100px;
+	
+	padding: 6px 2px 4px 10px;
+	display: none;
+	
+	left: 667px;
+	top: 228px;
+	
+	position:absolute;
+	
+}
+
+#cancel
+{
+	position: absolute;
+	top: -10px;
+	right: -12px;
+	width: 20px;
+	height: 20px;
+	margin-right:  6px;
+	margin-top: 2px;
+	margin-bottom: 4px;
+	background-image: url( '../images/buttons/x.jpg' );
+	/*float: left;*/
+	border: 1px green solid;
+	background-size: 100% 100%;
+}
+
+#cancel:hover
+{
+	
+	background-image: url( '../images/buttons/xhover.jpg' );
+	
+}
+
+#status
+{
+	
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	
+}
+
+#message
+{
+	
+	opacity: 0.9;
+	background: black;
+	border: 1px green solid;
+	width: 400px;
+	margin: 0px auto;
+	padding: 10px;
+	color: green;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 16px;
+	
+}
+
+#welcome
+{
+
+	padding: 8px;
+	color: #37b542;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 4px;
+	
+}
+
+i
+{
+	color: #37b542;
+}
+
+a
+{
+	color: #37b542;
+	/*text-decoration: none;*/
+}
+
+.note
+{
+
+	color: #37b542;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 16px;
+	
+}
+
+.gattling
+{
+
+	display: block;
+	height: 60px;
+	width: 60px;
+	background-image: url( '../images/buttons/gattling.jpg' );
+	
+}
+
+.gattling:hover
+{
+	background-image: url( '../images/buttons/gattlinghover.jpg' );
+}
+
+.gattling.active
+{
+	background-image: url( '../images/buttons/gattlingactive.jpg' );
+}
+
+.missile
+{
+
+	display: block;
+	height: 60px;
+	width: 60px;
+	background-image: url( '../images/buttons/missile.jpg' );
+	
+}
+
+.missile:hover
+{
+	background-image: url( '../images/buttons/missilehover.jpg' );
+}
+
+.missile.active
+{
+	background-image: url( '../images/buttons/missileactive.jpg' );
+}
+
+.laser
+{
+
+	display: block;
+	height: 60px;
+	width: 60px;
+	background-image: url( '../images/buttons/laser.jpg' );
+	
+}
+
+.laser:hover
+{
+	background-image: url( '../images/buttons/laserhover.jpg' );
+}
+
+.laser.active
+{
+	background-image: url( '../images/buttons/laseractive.jpg' );
+}
+
